@@ -1,0 +1,388 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/f833dc7d-11b2-4365-9609-f8f0e11586a1";
+const imgPicoSansScRank5 = `${assetPathPrefix}/3bf2b.svg`;
+const imgPicoSansScTrend5 = `${assetPathPrefix}/4f9b8.svg`;
+const imgPicoSansScHeat5 = `${assetPathPrefix}/32446.svg`;
+const imgPicoSansScRank4 = `${assetPathPrefix}/a1624.svg`;
+const imgPicoSansScTrend4 = `${assetPathPrefix}/86065.svg`;
+const imgPicoSansScHeat4 = `${assetPathPrefix}/9b346.svg`;
+const imgPicoSansScRank3 = `${assetPathPrefix}/932d3.svg`;
+const imgPicoSansScTrend3 = `${assetPathPrefix}/98fac.svg`;
+const imgPicoSansScHeat3 = `${assetPathPrefix}/5d899.svg`;
+const imgPicoSansScRank2 = `${assetPathPrefix}/8a920.svg`;
+const imgPicoSansScTrend2 = `${assetPathPrefix}/c5532.svg`;
+const imgPicoSansScHeat2 = `${assetPathPrefix}/11d3d.svg`;
+const imgPicoSansScNew = `${assetPathPrefix}/a8185.svg`;
+const imgPicoSansScRank1 = `${assetPathPrefix}/81663.svg`;
+const imgPicoSansScTrend1 = `${assetPathPrefix}/33136.svg`;
+const imgPicoSansScHeat1 = `${assetPathPrefix}/b4f39.svg`;
+const imgPicoSansScRank0 = `${assetPathPrefix}/d58dd.svg`;
+const imgPicoSansScTrend0 = `${assetPathPrefix}/f1a47.svg`;
+const imgPicoSansScHeat0 = `${assetPathPrefix}/991f9.svg`;
+const imgPicoSansScHot = `${assetPathPrefix}/04a30.svg`;
+const imgGroup = `${assetPathPrefix}/f7af6.svg`;
+const imgPicoSansScPlus = `${assetPathPrefix}/0759b.svg`;
+const imgFrame = `${assetPathPrefix}/7ff8c.svg`;
+const imgPicoSansScTrending = `${assetPathPrefix}/6c8de.svg`;
+const imgPicoSansScDemo = `${assetPathPrefix}/ee91f.svg`;
+const imgPicoSansScTotal6 = `${assetPathPrefix}/b4fe6.svg`;
+
+function TrendingRow6({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex gap-[var(--space\\/12,12px)] h-[76px] items-center overflow-clip p-[var(--space\\/12,12px)] relative w-[448px]"} data-node-id="20:800" data-name="Trending row 6">
+      <div className="content-stretch flex h-[36px] items-start overflow-clip relative shrink-0 w-[28px]" data-node-id="20:791" data-name="Rank">
+        <div className="h-[33px] relative shrink-0 w-[14px]" data-node-id="20:792" data-name="PICO Sans SC · rank5">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScRank5} />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--space\/4,4px)] items-start overflow-clip relative shrink-0 w-[340px]" data-node-id="20:794" data-name="Topic + popularity">
+        <div className="h-[27px] relative shrink-0 w-[296px]" data-node-id="20:795" data-name="PICO Sans SC · trend5">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScTrend5} />
+        </div>
+        <div className="content-stretch flex gap-[var(--space\/8,8px)] h-[20px] items-center overflow-clip relative shrink-0" data-node-id="20:797" data-name="Popularity">
+          <div className="h-[19px] relative shrink-0 w-[33px]" data-node-id="20:798" data-name="PICO Sans SC · heat5">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScHeat5} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TrendingRow5({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex gap-[var(--space\\/12,12px)] h-[76px] items-center overflow-clip p-[var(--space\\/12,12px)] relative w-[448px]"} data-node-id="20:789" data-name="Trending row 5">
+      <div className="content-stretch flex h-[36px] items-start overflow-clip relative shrink-0 w-[28px]" data-node-id="20:780" data-name="Rank">
+        <div className="h-[33px] relative shrink-0 w-[14px]" data-node-id="20:781" data-name="PICO Sans SC · rank4">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScRank4} />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--space\/4,4px)] items-start overflow-clip relative shrink-0 w-[340px]" data-node-id="20:783" data-name="Topic + popularity">
+        <div className="h-[27px] relative shrink-0 w-[317px]" data-node-id="20:784" data-name="PICO Sans SC · trend4">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScTrend4} />
+        </div>
+        <div className="content-stretch flex gap-[var(--space\/8,8px)] h-[20px] items-center overflow-clip relative shrink-0" data-node-id="20:786" data-name="Popularity">
+          <div className="h-[19px] relative shrink-0 w-[33px]" data-node-id="20:787" data-name="PICO Sans SC · heat4">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScHeat4} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TrendingRow4({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex gap-[var(--space\\/12,12px)] h-[76px] items-center overflow-clip p-[var(--space\\/12,12px)] relative w-[448px]"} data-node-id="20:778" data-name="Trending row 4">
+      <div className="content-stretch flex h-[36px] items-start overflow-clip relative shrink-0 w-[28px]" data-node-id="20:769" data-name="Rank">
+        <div className="h-[33px] relative shrink-0 w-[14px]" data-node-id="20:770" data-name="PICO Sans SC · rank3">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScRank3} />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--space\/4,4px)] items-start overflow-clip relative shrink-0 w-[340px]" data-node-id="20:772" data-name="Topic + popularity">
+        <div className="h-[27px] relative shrink-0 w-[306px]" data-node-id="20:773" data-name="PICO Sans SC · trend3">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScTrend3} />
+        </div>
+        <div className="content-stretch flex gap-[var(--space\/8,8px)] h-[20px] items-center overflow-clip relative shrink-0" data-node-id="20:775" data-name="Popularity">
+          <div className="h-[19px] relative shrink-0 w-[33px]" data-node-id="20:776" data-name="PICO Sans SC · heat3">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScHeat3} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TrendingRow3({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex gap-[var(--space\\/12,12px)] h-[76px] items-center overflow-clip p-[var(--space\\/12,12px)] relative w-[448px]"} data-node-id="20:767" data-name="Trending row 3">
+      <div className="content-stretch flex h-[36px] items-start overflow-clip relative shrink-0 w-[28px]" data-node-id="20:755" data-name="Rank">
+        <div className="h-[33px] relative shrink-0 w-[14px]" data-node-id="20:756" data-name="PICO Sans SC · rank2">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScRank2} />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--space\/4,4px)] items-start overflow-clip relative shrink-0 w-[340px]" data-node-id="20:758" data-name="Topic + popularity">
+        <div className="h-[27px] relative shrink-0 w-[294px]" data-node-id="20:759" data-name="PICO Sans SC · trend2">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScTrend2} />
+        </div>
+        <div className="content-stretch flex gap-[var(--space\/8,8px)] h-[20px] items-center overflow-clip relative shrink-0" data-node-id="20:761" data-name="Popularity">
+          <div className="h-[19px] relative shrink-0 w-[33px]" data-node-id="20:762" data-name="PICO Sans SC · heat2">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScHeat2} />
+          </div>
+          <div className="bg-[var(--color\/hot,#d95043)] content-stretch flex h-[20px] items-center justify-center overflow-clip relative rounded-[var(--space\/4,4px)] shrink-0 w-[36px]" data-node-id="20:764" data-name="New badge">
+            <div className="h-[17px] relative shrink-0 w-[25px]" data-node-id="20:765" data-name="PICO Sans SC · new">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScNew} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TrendingRow2({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex gap-[var(--space\\/12,12px)] h-[76px] items-center overflow-clip p-[var(--space\\/12,12px)] relative w-[448px]"} data-node-id="20:753" data-name="Trending row 2">
+      <div className="content-stretch flex h-[36px] items-start overflow-clip relative shrink-0 w-[28px]" data-node-id="20:744" data-name="Rank">
+        <div className="h-[33px] relative shrink-0 w-[14px]" data-node-id="20:745" data-name="PICO Sans SC · rank1">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScRank1} />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--space\/4,4px)] items-start overflow-clip relative shrink-0 w-[340px]" data-node-id="20:747" data-name="Topic + popularity">
+        <div className="h-[27px] relative shrink-0 w-[303px]" data-node-id="20:748" data-name="PICO Sans SC · trend1">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScTrend1} />
+        </div>
+        <div className="content-stretch flex gap-[var(--space\/8,8px)] h-[20px] items-center overflow-clip relative shrink-0" data-node-id="20:750" data-name="Popularity">
+          <div className="h-[19px] relative shrink-0 w-[33px]" data-node-id="20:751" data-name="PICO Sans SC · heat1">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScHeat1} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TrendingRow1({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex gap-[var(--space\\/12,12px)] h-[76px] items-center overflow-clip p-[var(--space\\/12,12px)] relative w-[448px]"} data-node-id="20:742" data-name="Trending row 1">
+      <div className="content-stretch flex h-[36px] items-start overflow-clip relative shrink-0 w-[28px]" data-node-id="20:730" data-name="Rank">
+        <div className="h-[33px] relative shrink-0 w-[14px]" data-node-id="20:731" data-name="PICO Sans SC · rank0">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScRank0} />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[var(--space\/4,4px)] items-start overflow-clip relative shrink-0 w-[340px]" data-node-id="20:733" data-name="Topic + popularity">
+        <div className="h-[27px] relative shrink-0 w-[273px]" data-node-id="20:734" data-name="PICO Sans SC · trend0">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScTrend0} />
+        </div>
+        <div className="content-stretch flex gap-[var(--space\/8,8px)] h-[20px] items-center overflow-clip relative shrink-0" data-node-id="20:736" data-name="Popularity">
+          <div className="h-[19px] relative shrink-0 w-[39px]" data-node-id="20:737" data-name="PICO Sans SC · heat0">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScHeat0} />
+          </div>
+          <div className="bg-[var(--color\/warm,#c67526)] content-stretch flex h-[20px] items-center justify-center overflow-clip relative rounded-[var(--space\/4,4px)] shrink-0 w-[36px]" data-node-id="20:739" data-name="Hot badge">
+            <div className="h-[17px] relative shrink-0 w-[21px]" data-node-id="20:740" data-name="PICO Sans SC · hot">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScHot} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function V2ControlSettings({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-[var(--color\\/control,#eef1ef)] content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--space\\/24,24px)] size-[48px]"} data-node-id="20:619" data-name="V2 Control / settings">
+      <div className="h-[22.462px] overflow-clip relative shrink-0 w-[20.057px]" data-node-id="20:615" data-name="Frame">
+        <div className="absolute inset-[3.69%_4.13%]" data-node-id="20:616" data-name="Group">
+          <div className="absolute inset-[-3.98%_-4.5%]">
+            <img alt="" className="block max-w-none size-full" src={imgGroup} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function V2ControlPlus({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-[var(--color\\/control,#eef1ef)] content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--space\\/24,24px)] size-[48px]"} data-node-id="20:613" data-name="V2 Control / plus">
+      <div className="h-[38px] relative shrink-0 w-[17px]" data-node-id="20:611" data-name="PICO Sans SC · plus">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScPlus} />
+      </div>
+    </div>
+  );
+}
+
+function V2ControlMinus({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-[var(--color\\/control,#eef1ef)] content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--space\\/24,24px)] size-[48px]"} data-node-id="20:609" data-name="V2 Control / minus">
+      <div className="relative shrink-0 size-[24px]" data-node-id="21:1132" data-name="Frame">
+        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame} />
+      </div>
+    </div>
+  );
+}
+
+export default function Count6({ className }: { className?: string }) {
+  return (
+    <div className={className || "backdrop-blur-[30px] bg-[var(--color\\/surface,#dfe3e1)] border border-[var(--color\\/selected,white)] border-solid content-stretch flex flex-col gap-[var(--space\\/4,4px)] items-start overflow-clip p-[var(--space\\/16,16px)] relative rounded-[var(--space\\/28,28px)] shadow-[0px_12px_32px_0px_rgba(26,36,31,0.1)] w-[480px]"} data-node-id="20:1172" data-name="Count=6">
+      <div className="content-stretch flex gap-[var(--space\/8,8px)] h-[56px] items-center overflow-clip relative shrink-0 w-[448px]" data-node-id="20:1086" data-name="Trending header">
+        <div className="h-[33px] relative shrink-0 w-[103px]" data-node-id="20:1087" data-name="PICO Sans SC · trending">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScTrending} />
+        </div>
+        <div className="flex-[1_0_0] h-px min-w-px relative" data-node-id="20:1089" data-name="Flexible space" />
+        <V2ControlMinus className="bg-[var(--color\/control,#eef1ef)] content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--space\/24,24px)] shrink-0 size-[48px]" />
+        <V2ControlPlus className="bg-[var(--color\/control,#eef1ef)] content-stretch flex items-center justify-center opacity-30 overflow-clip relative rounded-[var(--space\/24,24px)] shrink-0 size-[48px]" />
+        <V2ControlSettings className="bg-[var(--color\/control,#eef1ef)] content-stretch flex items-center justify-center overflow-clip relative rounded-[var(--space\/24,24px)] shrink-0 size-[48px]" />
+      </div>
+      <TrendingRow1 className="content-stretch flex gap-[var(--space\/12,12px)] h-[76px] items-center overflow-clip p-[var(--space\/12,12px)] relative shrink-0 w-[448px]" />
+      <TrendingRow2 className="content-stretch flex gap-[var(--space\/12,12px)] h-[76px] items-center overflow-clip p-[var(--space\/12,12px)] relative shrink-0 w-[448px]" />
+      <TrendingRow3 className="content-stretch flex gap-[var(--space\/12,12px)] h-[76px] items-center overflow-clip p-[var(--space\/12,12px)] relative shrink-0 w-[448px]" />
+      <TrendingRow4 className="content-stretch flex gap-[var(--space\/12,12px)] h-[76px] items-center overflow-clip p-[var(--space\/12,12px)] relative shrink-0 w-[448px]" />
+      <TrendingRow5 className="content-stretch flex gap-[var(--space\/12,12px)] h-[76px] items-center overflow-clip p-[var(--space\/12,12px)] relative shrink-0 w-[448px]" />
+      <TrendingRow6 className="content-stretch flex gap-[var(--space\/12,12px)] h-[76px] items-center overflow-clip p-[var(--space\/12,12px)] relative shrink-0 w-[448px]" />
+      <div className="content-stretch flex h-[30px] items-center overflow-clip relative shrink-0 w-[448px]" data-node-id="20:1166" data-name="Source and count">
+        <div className="h-[18px] relative shrink-0 w-[142px]" data-node-id="20:1167" data-name="PICO Sans SC · demo">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScDemo} />
+        </div>
+        <div className="flex-[1_0_0] h-px min-w-px relative" data-node-id="20:1169" data-name="Flexible space" />
+        <div className="h-[19px] relative shrink-0 w-[28px]" data-node-id="20:1170" data-name="PICO Sans SC · total6">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPicoSansScTotal6} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Count=6
+**Node ID:** 20:1172
+
+Trending panel, 1–6 topics. Hot/New badges and demonstration popularity. Position right or lower-right. Top edge stable when rows expand.
+
+## V2 Type / trending
+**Node ID:** 20:343
+
+PICO Sans SC outline from local font; text key: trending
+
+## V2 Control / minus
+**Node ID:** 20:609
+
+48 dp spatial target. Disabled opacity 30%. minus
+
+## V2 Control / plus
+**Node ID:** 20:613
+
+48 dp spatial target. Disabled opacity 30%. plus
+
+## V2 Type / plus
+**Node ID:** 20:565
+
+PICO Sans SC outline from local font; text key: plus
+
+## V2 Control / settings
+**Node ID:** 20:619
+
+48 dp spatial target. Disabled opacity 30%. settings
+
+## V2 Type / rank0
+**Node ID:** 20:454
+
+PICO Sans SC outline from local font; text key: rank0
+
+## V2 Type / trend0
+**Node ID:** 20:451
+
+PICO Sans SC outline from local font; text key: trend0
+
+## V2 Type / heat0
+**Node ID:** 20:457
+
+PICO Sans SC outline from local font; text key: heat0
+
+## V2 Type / hot
+**Node ID:** 20:442
+
+PICO Sans SC outline from local font; text key: hot
+
+## V2 Type / rank1
+**Node ID:** 20:466
+
+PICO Sans SC outline from local font; text key: rank1
+
+## V2 Type / trend1
+**Node ID:** 20:463
+
+PICO Sans SC outline from local font; text key: trend1
+
+## V2 Type / heat1
+**Node ID:** 20:469
+
+PICO Sans SC outline from local font; text key: heat1
+
+## V2 Type / rank2
+**Node ID:** 20:478
+
+PICO Sans SC outline from local font; text key: rank2
+
+## V2 Type / trend2
+**Node ID:** 20:475
+
+PICO Sans SC outline from local font; text key: trend2
+
+## V2 Type / heat2
+**Node ID:** 20:481
+
+PICO Sans SC outline from local font; text key: heat2
+
+## V2 Type / new
+**Node ID:** 20:445
+
+PICO Sans SC outline from local font; text key: new
+
+## V2 Type / rank3
+**Node ID:** 20:490
+
+PICO Sans SC outline from local font; text key: rank3
+
+## V2 Type / trend3
+**Node ID:** 20:487
+
+PICO Sans SC outline from local font; text key: trend3
+
+## V2 Type / heat3
+**Node ID:** 20:493
+
+PICO Sans SC outline from local font; text key: heat3
+
+## V2 Type / rank4
+**Node ID:** 20:502
+
+PICO Sans SC outline from local font; text key: rank4
+
+## V2 Type / trend4
+**Node ID:** 20:499
+
+PICO Sans SC outline from local font; text key: trend4
+
+## V2 Type / heat4
+**Node ID:** 20:505
+
+PICO Sans SC outline from local font; text key: heat4
+
+## V2 Type / rank5
+**Node ID:** 20:514
+
+PICO Sans SC outline from local font; text key: rank5
+
+## V2 Type / trend5
+**Node ID:** 20:511
+
+PICO Sans SC outline from local font; text key: trend5
+
+## V2 Type / heat5
+**Node ID:** 20:517
+
+PICO Sans SC outline from local font; text key: heat5
+
+## V2 Type / demo
+**Node ID:** 20:439
+
+PICO Sans SC outline from local font; text key: demo
+
+## V2 Type / total6
+**Node ID:** 20:553
+
+PICO Sans SC outline from local font; text key: total6
+
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

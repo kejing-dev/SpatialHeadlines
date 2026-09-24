@@ -1,0 +1,26 @@
+==> spatial-ui-design-style verifier
+    paths: app/src/main
+    design colors: ink=#202426 secondary=#637074 hot=#D95043 warm=#C67526 border=#4DFFFFFF fill=#EEF1EF dark=#282828 white=#FFFFFF materialBase=#CCBBBBBB materialDodge=#2E2E2E buttonDodge=#7A323232
+
+-- R1 PicoTheme wrapping
+-- R1b design colors drive PicoTheme
+-- R2 built-in design preference (soft check)
+-- R3 hover effect
+-- R4 window-root background
+-- R4b view-level material shape
+-- R5 theme-role routing
+-- R6 indication & haptics
+-- R7 library-private token imports
+-- R8 migrated SpatialUI checklist heuristics
+[info] R8 remember boolean UI state; use rememberSaveable for popup/dialog/menu/subwindow visibility :: app/src/main/java/com/headline/news/ui/headlines/HeadlineScreen.kt:129:                var statusVisible by remember { mutableStateOf(false) }
+[info] R8 remember boolean UI state; use rememberSaveable for popup/dialog/menu/subwindow visibility :: app/src/main/java/com/headline/news/ui/headlines/components/SettingsPanel.kt:142:    var expanded by remember { mutableStateOf(false) }
+[info] R8 large directional padding detected; confirm this is not manual TabBar/Toolbar avoidance :: app/src/main/java/com/headline/news/ui/headlines/components/HeadlineWidget.kt:38:    LazyColumn(state = listState, modifier = Modifier.fillMaxSize().padding(end = 20.dp).semantics { contentDescription = "News list" }) {
+[info] R8 large directional padding detected; confirm this is not manual TabBar/Toolbar avoidance :: app/src/main/java/com/headline/news/ui/headlines/components/HeadlineWidget.kt:43:                .spatialHoverEffect().padding(start = 16.dp, end = 8.dp),
+[info] R8 large directional padding detected; confirm this is not manual TabBar/Toolbar avoidance :: app/src/main/java/com/headline/news/ui/headlines/components/SettingsPanel.kt:114:            Text(feedStatus, modifier = Modifier.weight(1f).padding(end = 12.dp), color = PicoTheme.colorScheme.labelSecondary, fontSize = 14.sp, lineHeight = 20.sp, maxLines = 2)
+[info] R8 large directional padding detected; confirm this is not manual TabBar/Toolbar avoidance :: app/src/main/java/com/headline/news/ui/headlines/components/TrendingWidget.kt:20:            Text("Latest news", modifier = Modifier.height(56.dp).padding(start = 16.dp, top = 12.dp),
+-- R9 resolved text foregrounds
+
+==> spatial-ui-design-style verifier summary
+    errors:   0
+    warnings: 0
+    result:   PASS

@@ -1,0 +1,135 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/f93a86d3-c6ce-4bc0-b78d-11d3650121f4";
+const imgIconContent = `${assetPathPrefix}/50859.svg`;
+const imgGroup = `${assetPathPrefix}/c62d4.svg`;
+
+export default function S21() {
+  return (
+    <div className="bg-gradient-to-b from-[#bdc8cb] relative size-full to-[#e4dfd2]" data-node-id="2:5772" data-name="S21 显示三条新闻">
+      <div className="absolute flex h-[847.962px] items-center justify-center left-[940px] top-[245.65px] w-[693.915px]" data-node-id="2:5773">
+        <div className="-rotate-12 flex-none">
+          <div className="bg-[rgba(161,175,169,0.15)] h-[750px] relative rounded-[100px] w-[550px]" data-name="空间远景 明暗层次" />
+        </div>
+      </div>
+      <div className="absolute flex h-[722.645px] items-center justify-center left-[-282.67px] top-[420px] w-[807.371px]" data-node-id="2:5774">
+        <div className="flex-none rotate-12">
+          <div className="bg-[rgba(255,255,255,0.15)] h-[590px] relative rounded-[220px] w-[700px]" data-name="空间远景 柔光" />
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['PICO_Sans_SC:Bold'] leading-[1.45] left-[48px] not-italic text-[#25272a] text-[26px] top-[36px] w-[1300px] whitespace-pre-wrap" data-node-id="2:5775">{`S21  /  显示三条新闻`}</p>
+      <p className="[word-break:break-word] absolute font-['PICO_Sans_SC:Regular'] leading-[1.45] left-[48px] not-italic text-[#575f60] text-[17px] top-[82px] w-[1300px]" data-node-id="2:5776">
+        标准宽度 · 3 条新闻 · 每条独立点击 · 标题单行展示
+      </p>
+      <p className="[word-break:break-word] absolute font-['PICO_Sans_SC:Bold'] leading-[1.45] left-[48px] not-italic text-[#606869] text-[13px] top-[935px] w-[700px] whitespace-pre-wrap" data-node-id="2:5777">{`HEADLINE   /   PICO SPATIAL UI`}</p>
+      <p className="[word-break:break-word] absolute font-['PICO_Sans_SC:Regular'] leading-[1.45] left-[1090px] not-italic text-[#606869] text-[13px] top-[935px] w-[310px]" data-node-id="2:5778">
+        示例新闻与页面仅用于交互演示
+      </p>
+      <div className="absolute content-stretch flex h-[264px] items-start justify-center left-0 top-[185px] w-[1440px]" data-node-id="2:5779" data-name="Widget 居中容器">
+        <div className="border border-[rgba(255,255,255,0.3)] border-solid content-stretch drop-shadow-[0px_12px_16px_rgba(31,38,41,0.14)] flex flex-col items-center p-[8px] relative rounded-[28px] shrink-0 w-[720px]" data-node-id="2:5780" data-name="Headline Widget">
+          <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[28px]">
+            <div className="absolute bg-[rgba(187,187,187,0.8)] inset-0 rounded-[28px]" />
+            <div className="absolute backdrop-blur-[50px] bg-[#2e2e2e] inset-0 mix-blend-color-dodge rounded-[28px]" />
+          </div>
+          <div className="h-[64px] overflow-clip relative shrink-0 w-full" data-node-id="2:5781" data-name="新闻行 1">
+            <div className="-translate-y-1/2 absolute content-stretch flex gap-[12px] h-[64px] items-center left-0 min-h-[60px] pl-[var(--padding-regular-16,16px)] pr-[4px] py-[var(--padding-regular-16,16px)] right-[-2px] top-1/2" data-node-id="2:5782" data-name="List Item">
+              <div className="content-stretch flex flex-[1_0_0] gap-[var(--gap-large-16,16px)] items-center min-w-px relative" data-node-id="I2:5782;7503:84833" data-name="content">
+                <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-w-px relative" data-node-id="I2:5782;7503:84834" data-name="content">
+                  <div className="[word-break:break-word] flex flex-col font-['PICO_Sans_SC:Medium'] h-[20px] justify-center leading-[0] not-italic overflow-hidden relative shrink-0 text-[24px] text-[color:var(--darkest-alpha,black)] text-ellipsis tracking-[0.3px] w-full whitespace-nowrap" data-node-id="I2:5782;7503:84835">
+                    <p className="leading-[36px] overflow-hidden text-ellipsis">中国空间站完成新一轮科学实验</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="-translate-y-1/2 absolute right-[14px] size-[48px] top-1/2" data-node-id="2:5808" data-name="系统图标按钮 settings">
+              <div className="absolute content-stretch flex flex-col gap-[10px] items-center justify-center left-[4px] p-[11px] rounded-[33px] top-[4px]" data-node-id="2:5809" data-name="Icon Button">
+                <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[33px]">
+                  <div className="absolute bg-[rgba(255,255,255,0.12)] inset-0 mix-blend-lighten rounded-[33px]" />
+                  <div className="absolute backdrop-blur-[20px] bg-[rgba(50,50,50,0.48)] inset-0 mix-blend-color-dodge rounded-[33px]" />
+                </div>
+                <div className="relative shrink-0 size-[18px]" data-node-id="I2:5809;3155:64661" data-name="Icon Content">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconContent} />
+                </div>
+              </div>
+              <div className="absolute left-[12px] overflow-clip size-[24px] top-[12px]" data-node-id="2:5830" data-name="Frame">
+                <div className="absolute inset-[3.75%_11.67%_9.56%_11.67%]" data-node-id="2:5831" data-name="Group">
+                  <div className="absolute inset-[-3.98%_-4.5%]">
+                    <img alt="" className="block max-w-none size-full" src={imgGroup} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="h-[64px] overflow-clip relative shrink-0 w-full" data-node-id="2:5834" data-name="新闻行 2">
+            <div className="-translate-y-1/2 absolute content-stretch flex gap-[12px] h-[64px] items-center left-0 min-h-[60px] pl-[var(--padding-regular-16,16px)] pr-[4px] py-[var(--padding-regular-16,16px)] right-[-2px] top-1/2" data-node-id="2:5835" data-name="List Item">
+              <div className="content-stretch flex flex-[1_0_0] gap-[var(--gap-large-16,16px)] items-center min-w-px relative" data-node-id="I2:5835;7503:84833" data-name="content">
+                <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-w-px relative" data-node-id="I2:5835;7503:84834" data-name="content">
+                  <div className="[word-break:break-word] flex flex-col font-['PICO_Sans_SC:Medium'] h-[20px] justify-center leading-[0] not-italic overflow-hidden relative shrink-0 text-[24px] text-[color:var(--darkest-alpha,black)] text-ellipsis tracking-[0.3px] w-full whitespace-nowrap" data-node-id="I2:5835;7503:84835">
+                    <p className="leading-[36px] overflow-hidden text-ellipsis">多地博物馆开放夜间参观</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="h-[64px] overflow-clip relative shrink-0 w-full" data-node-id="2:5861" data-name="新闻行 3">
+            <div className="-translate-y-1/2 absolute content-stretch flex gap-[12px] h-[64px] items-center left-0 min-h-[60px] pl-[var(--padding-regular-16,16px)] pr-[4px] py-[var(--padding-regular-16,16px)] right-[-2px] top-1/2" data-node-id="2:5862" data-name="List Item">
+              <div className="content-stretch flex flex-[1_0_0] gap-[var(--gap-large-16,16px)] items-center min-w-px relative" data-node-id="I2:5862;7503:84833" data-name="content">
+                <div className="content-stretch flex flex-[1_0_0] flex-col items-start justify-center min-w-px relative" data-node-id="I2:5862;7503:84834" data-name="content">
+                  <div className="[word-break:break-word] flex flex-col font-['PICO_Sans_SC:Medium'] h-[20px] justify-center leading-[0] not-italic overflow-hidden relative shrink-0 text-[24px] text-[color:var(--darkest-alpha,black)] text-ellipsis tracking-[0.3px] w-full whitespace-nowrap" data-node-id="I2:5862;7503:84835">
+                    <p className="leading-[36px] overflow-hidden text-ellipsis">新一代深海探测器完成海试</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute border border-[rgba(255,255,255,0.3)] border-solid content-stretch flex gap-[12px] items-center justify-center left-[425px] max-w-[240px] px-[12px] py-[8px] rounded-[20px] top-[420px]" data-node-id="2:5888" data-name="Tooltip">
+        <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[20px]">
+          <div className="absolute bg-[rgba(187,187,187,0.8)] inset-0 rounded-[20px]" />
+          <div className="absolute backdrop-blur-[50px] bg-[#2e2e2e] inset-0 mix-blend-color-dodge rounded-[20px]" />
+        </div>
+        <div className="[word-break:break-word] flex flex-col font-['PICO_Sans_SC:Medium'] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[color:var(--darkest-alpha,black)] tracking-[0.28px] whitespace-nowrap" data-node-id="I2:5888;805:17666">
+          <p className="leading-[18px]">百度热搜 · 刚刚更新 · 查看话题</p>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['PICO_Sans_SC:Bold'] leading-[1.45] left-[450px] not-italic text-[#25272a] text-[28px] top-[580px] w-[800px]" data-node-id="2:5893">
+        三条新闻分别打开对应页面
+      </p>
+      <p className="[word-break:break-word] absolute font-['PICO_Sans_SC:Regular'] leading-[1.45] left-[350px] not-italic text-[#626a6c] text-[22px] top-[650px] w-[1000px]" data-node-id="2:5894">
+        设置中选择 3 条后即时呈现，宽度可独立调整。
+      </p>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Label/Label Primary(Role): #000000, Label/Label Primary Light (Role): #FFFFFF, Fill/Fill Secondary(Role): #FFFFFF,#323232, Background/MaterialThickest: #BBBBBB,#2E2E2E, Line/Small Element Border: , Material Regular: Effect(type: BACKGROUND_BLUR, radius: 100); Effect(type: INNER_SHADOW, color: #DADADA3D, offset: (0, 0), radius: 32, spread: 0).
+
+Component descriptions: The following components have usage descriptions or documentation links defined in Figma. These descriptions provide important context about the intended usage, best practices, and any constraints for each component. Follow these guidelines when implementing or using these components.
+
+## Icon Button
+**Node ID:** 1:1129
+
+相关动效链接：[https://bytedance.feishu.cn/docx/FDindwDkUo5QkhxHxsJcIMpQnJb#CFcpdS36QoNICKxbiDVcPmL4nGh](https://bytedance.feishu.cn/docx/FDindwDkUo5QkhxHxsJcIMpQnJb#CFcpdS36QoNICKxbiDVcPmL4nGh)
+
+## Content=Simple
+**Node ID:** 1:1119
+
+位置: 默认位于按钮下方居中，间距 8
+
+相关动效链接：[https://bytedance.feishu.cn/docx/FDindwDkUo5QkhxHxsJcIMpQnJb#EwVZdmP9Ko8X1WxloGucKNbtnuw](https://bytedance.feishu.cn/docx/FDindwDkUo5QkhxHxsJcIMpQnJb#EwVZdmP9Ko8X1WxloGucKNbtnuw)
+
+## Tooltip
+**Node ID:** 1:1118
+
+**使用玻璃纸：Material Thickest**
+
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

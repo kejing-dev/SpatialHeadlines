@@ -1,0 +1,35 @@
+# Build products and local tools
+.gradle/
+.kotlin/
+**/build/
+local.properties
+.pico-env.json
+.agents/
+.codex/
+.scratch/
+PICO-SPATIAL-AGENTIC-TOOLS.AGENTS.md
+.DS_Store
+.idea/
+*.iml
+.externalNativeBuild/
+.cxx/
+*.hprof
+captures/
+# Distributable APKs are GitHub Release assets, not Git objects.
+*.apk
+*.aab
+# Signing material and local credentials must stay outside Git.
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+.env
+.env.*
+credentials.json
+signing.properties
+keystore.properties
+google-services.json
+# Retain only reviewed QA logs.
+*.log
+!docs/qa/**/logs/*.log

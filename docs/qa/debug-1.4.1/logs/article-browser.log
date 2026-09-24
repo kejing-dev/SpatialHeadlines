@@ -1,0 +1,30 @@
+INSTRUMENTATION_STATUS: class=com.headline.news.LiveNewsTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.headline.news.LiveNewsTest:
+INSTRUMENTATION_STATUS: test=visibleHeadlineOpensItsExactArticle
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: stream=ARTICLE_TITLE Trump offers warm welcome as China's Xi arrives for US visit
+ARTICLE_URL https://www.bbc.co.uk/news/articles/cqgmrk7187lzo?at_medium=RSS&at_campaign=rss
+
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: stream=ARTICLE_BROWSER_READY
+
+INSTRUMENTATION_STATUS_CODE: 2
+INSTRUMENTATION_STATUS: class=com.headline.news.LiveNewsTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=visibleHeadlineOpensItsExactArticle
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_RESULT: stream=
+
+Time: 30.948
+
+OK (1 test)
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=SpatialHeadlines, OU=Android Release
+Signer #1 certificate SHA-256 digest: 980b43ee2d425526c1e30962ca72513e703f59fafa93e0ca6ce6b98be04da586
+Signer #1 certificate SHA-1 digest: c9f2b15afcb499d05bc506d2430ab113427f451a
+Signer #1 certificate MD5 digest: e0466d1104f085ed81bbdca7aea4566d
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 8b5c34edaac6d41f159949b04d6695e6c8f6ed8a953a49589b6a6f26986cfc2b
+Signer #1 public key SHA-1 digest: c041f333b9b08afbb8e302e135f799699f90ad4b
+Signer #1 public key MD5 digest: 11b9772c9cc6d887cf85cb078ad3963a
